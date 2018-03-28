@@ -18,13 +18,7 @@
         <link rel="stylesheet" type="text/css" href="styles/navbar/desktop.css">
         
         <!--HEADER-->
-        <link rel="stylesheet" type="text/css" href="styles/header/desktop.css">
-        
-        <!--POINTS-->
-        <link rel="stylesheet" type="text/css" href="styles/points/desktop.css">
-        
-        <!--FOOTER-->
-        <link rel="stylesheet" type="text/css" href="styles/footer/desktop.css">     
+        <link rel="stylesheet" type="text/css" href="styles/header/desktop.css"> 
         
     </head>
 
