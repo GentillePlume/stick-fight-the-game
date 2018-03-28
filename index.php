@@ -37,11 +37,8 @@
         <!--HEADER-->
         <?php include 'elements/header.html'?>
         
-        <!--POINTS-->
-        <?php include 'elements/points.html'?>
-        
-        <!--FOOTER-->
-        <?php include 'elements/footer.html'?>
+        <!--NAVBAR-->
+        <?php include 'elements/navbar.html'?>
         
         <!--########## SCRIPTS ##########-->
         
