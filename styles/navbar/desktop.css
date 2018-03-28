@@ -1,0 +1,18 @@
+nav
+{
+    display: flex;
+    
+    width: 100vw;
+    height: 10vh;
+    
+    flex-flow: row nowrap;
+    
+    background-color: black;
+}
+
+.scrolled
+{
+    height: 5vh;
+    
+    background-color: rgba(0,0,0,.9);  
+}
