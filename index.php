@@ -38,7 +38,7 @@
         <?php include 'elements/header.html'?>
         
         <!--POINTS-->
-        <?php include 'elements/presentation.html'?>
+        <?php include 'elements/points.html'?>
         
         <!--FOOTER-->
         <?php include 'elements/footer.html'?>
