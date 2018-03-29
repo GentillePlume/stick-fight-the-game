@@ -73,6 +73,10 @@ nav a
     
     justify-content: center;
     align-items: center;
+    
+    transition: all .3s ease-in-out;
+    
+    color: white;
 }
 
 nav p
@@ -84,5 +88,32 @@ nav p
     
     font-size: 50px;
     font-family: bebas;
-    color: white;
+}
+
+/*
+##################################################
+                       HOVER
+##################################################
+*/
+
+nav a:hover
+{
+    animation-name: hovermenu;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+/*
+##################################################
+                    ANIMATIONS
+##################################################
+*/
+
+@keyframes hovermenu
+{
+    25% {background-color: yellow}
+    50% {background-color: blue}
+    75% {background-color: red}
+    100% {background-color: green}
+    0% {background-color: white; color: black}
 }
