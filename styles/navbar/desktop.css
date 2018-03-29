@@ -74,8 +74,6 @@ nav a
     justify-content: center;
     align-items: center;
     
-    transition: all .3s ease-in-out;
-    
     color: white;
 }
 
@@ -111,9 +109,9 @@ nav a:hover
 
 @keyframes hovermenu
 {
+    0% {background-color: white; color: black}
     25% {background-color: yellow}
     50% {background-color: blue}
     75% {background-color: red}
-    100% {background-color: green}
-    0% {background-color: white; color: black}
+    100% {background-color: green}    
 }
