@@ -42,7 +42,8 @@
         
         <!--OTHER SCRIPTS-->
         <script src="scripts/sizes.js"></script>
-        <script src="scripts/navbar.js"></script>  
+        <script src="scripts/navbar.js"></script>
+        <script src="scripts/typedtext.js"></script>
         
     </body>
     
