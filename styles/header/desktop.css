@@ -20,6 +20,18 @@ header > overlay
     background-color: rgba(0,0,0,.8);    
 }
 
+header p
+{
+    display: inline-block;
+    
+    width: auto;
+    height: auto;
+    
+    font-size: 100px;
+    font-family: bebas;
+    color: white;
+}
+
 /*VIDEO BACKGROUND PROPERTIES*/
 #bgvid
 {
