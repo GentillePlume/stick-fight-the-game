@@ -22,7 +22,10 @@
     <link rel="stylesheet" type="text/css" href="styles/navbar/desktop.css">
     
     <!--THE GAME-->
-    <link rel="stylesheet" type="text/css" href="styles/thegame/desktop.css">   
+    <link rel="stylesheet" type="text/css" href="styles/thegame/desktop.css">
+    
+    <!--STATS-->
+    <link rel="stylesheet" type="text/css" href="styles/stats/desktop.css">
 
 </head>
 
@@ -40,6 +43,9 @@
         
         <!--THEGAME-->
         <?php include 'elements/thegame.html'?>
+        
+        <!--STATS-->
+        <?php include 'elements/stats.html'?>
 
     <!--########## SCRIPTS ##########-->
 
