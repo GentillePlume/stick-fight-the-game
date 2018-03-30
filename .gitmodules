@@ -4,3 +4,6 @@
 [submodule "resources/animate.css"]
 	path = resources/animate.css
 	url = https://github.com/daneden/animate.css.git
+[submodule "resources/anime.js"]
+	path = resources/anime.js
+	url = https://github.com/juliangarnier/anime.git
