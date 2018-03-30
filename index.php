@@ -34,6 +34,9 @@
         
         <!--NAVBAR-->
         <?php include 'elements/navbar.html'?>
+        
+        <!--THEGAME-->
+        <?php include 'elements/thegame.html'?>
 
     <!--########## SCRIPTS ##########-->
 
