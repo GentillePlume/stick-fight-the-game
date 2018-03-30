@@ -15,11 +15,14 @@
     <!--GENERAL PROPERTIES-->
     <link href="styles/general.css" rel="stylesheet">
 
-    <!--NAVIGATION BAR-->
-    <link rel="stylesheet" type="text/css" href="styles/navbar/desktop.css">
-
     <!--HEADER-->
     <link rel="stylesheet" type="text/css" href="styles/header/desktop.css">
+    
+    <!--NAVIGATION BAR-->
+    <link rel="stylesheet" type="text/css" href="styles/navbar/desktop.css">
+    
+    <!--THE GAME-->
+    <link rel="stylesheet" type="text/css" href="styles/thegame/desktop.css">   
 
 </head>
 
