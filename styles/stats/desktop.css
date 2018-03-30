@@ -1,0 +1,32 @@
+#stats
+{
+    display: flex;
+    
+    width: 100vw;
+    height: 60vh;
+    
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    background-color: white;
+}
+
+#stats p
+{
+    display: inline-block;
+    
+    width: 40%;
+    height: auto;
+    
+    font-size: ;
+    font-family: ;
+}
+
+#stats iframe
+{
+    display: inline-block;
+    
+    width: 40%;
+    height: 80%;
+}
