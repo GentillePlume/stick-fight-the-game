@@ -1,0 +1,65 @@
+#thegame
+{
+    display: flex;
+    
+    width: 100vw;
+    height: 100vh;
+    
+    justify-content: center;
+    align-items: flex-start;
+    
+    background-color: white;
+}
+
+/*MAIN ELEMENTS CONTAINER*/
+#thegame > div
+{
+    display: flex;
+    
+    width: 100%;
+    height: auto;
+    
+    margin-top: 15vh;
+    
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/*EACH ELEMENT*/
+#thegame > div > div
+{
+    display: flex;
+    
+    width: 150px;
+    height: auto;
+    
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+/*EACH ELEMENT IMAGES*/
+#thegame svg
+{
+    display: inline-block;
+    
+    width: 100%;
+    height: auto;
+}
+
+/*EACH ELEMENT TEXT CONTENT*/
+#thegame > div > div > p
+{
+    display: inline-block;
+    
+    width: auto;
+    height: auto;
+    
+    margin-top: 25px;
+    
+    font-size: 25px;
+    font-family: bebas;
+    text-transform: uppercase;
+    text-align: center;
+}
