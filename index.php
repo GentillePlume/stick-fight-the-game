@@ -54,10 +54,10 @@
     <script src="resources/typed.js/lib/typed.js"></script>
 
     <!--OTHER SCRIPTS-->
-    <script src="scripts/sizes.js"></script>
     <script src="scripts/navbar.js"></script>
     <script src="scripts/typedtext.js"></script>
     <script src="scripts/header.js"></script>
+    <script src="scripts/vidvol.js"></script>
 
 </body>
 
