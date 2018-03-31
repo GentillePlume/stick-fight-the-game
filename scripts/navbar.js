@@ -11,7 +11,7 @@ function navbar()
     
     var effectstart = headersize - navsize;
     
-    console.log($(window).scrollTop());
+    /*console.log($(window).scrollTop());*/
     
     // From the moment when the header size equivalent 
     // is scrolled, add the class "scrolled" to the
@@ -19,7 +19,7 @@ function navbar()
     if ($(window).scrollTop() > effectstart)
     {
         $('nav').addClass('scrolled');
-        console.log("class added !");
+        /*console.log("class added !");*/
     }
     
     // If the header size equivalent isn't scrolled,
@@ -27,7 +27,7 @@ function navbar()
     else
     {
         $('nav').removeClass('scrolled');
-        console.log("class removed !");
+        /*console.log("class removed !");*/
     }
 }
 
