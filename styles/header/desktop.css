@@ -13,6 +13,7 @@ header > overlay
     width: 100%;
     height: 100%;
     
+    flex-flow: column;
     justify-content: center;
     align-items: center;
     
@@ -31,20 +32,21 @@ header div > p
     color: white;
 }
 
-header div
+/*MAIN CONTENT CONTAINER*/
+header > overlay > div:first-of-type
 {
     display: flex;
     
     width: auto;
     height: auto;
     
+    flex-flow: column nowrap;
     justify-content: center;
     align-items: center;
-    
-    flex-flow: column nowrap;
 }
 
-header div div
+/*BUTTONS CONTAINER*/
+header > overlay > div:first-of-type > div
 {
     display: flex;
     
@@ -63,7 +65,7 @@ header div div
     opacity: 0;
 }
 
-header a
+header > overlay > div:first-of-type > div > a
 {
     display: flex;
     
@@ -72,7 +74,6 @@ header a
     
     justify-content: center;
     align-items: center;
-    
 }
 
 header a:first-child {background-color: rgba(0, 118, 9, 0.8); color: white}
@@ -95,7 +96,7 @@ header a > p
 header a:hover > p {font-size: 22px}
 
 /*VIDEO BACKGROUND PROPERTIES*/
-#bgvid
+#vid
 {
     position: fixed;
     top: 50%;
@@ -113,6 +114,92 @@ header a:hover > p {font-size: 22px}
     background-size: cover;
 }
 
+header > overlay > div:last-child
+{
+    display: flex;
+    position: absolute;
+    top: 75%;
+    
+    width: 40%;
+    height: 10%;
+    
+    justify-content: center;
+    align-items: center;
+    
+    background-color: rgba(0,0,0,.5);
+}
+
+header > overlay > div:last-child > div
+{
+    display: none;
+}
+
+header > overlay > div:last-child:hover > div
+{
+    animation-name: vidvolbar;
+    
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+header > overlay > div:last-child > svg
+{
+    display: inline-block;
+    
+    width: auto;
+    height: 100%;
+}
+
+header > overlay > div:last-child:hover > svg
+{
+    animation-name: speakermove;
+    
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+/*VOLUME BAR*/
+.volume {
+    position: relative;
+    cursor: pointer;
+    
+    width: 100%;
+    height: 20px;
+    
+    float: left;
+    
+    /*margin-top: 10px;
+    margin-right: 10px;*/
+    
+    background-color: #6a6a6a;
+    border-radius: 10px;
+}
+
+.volumeBar {
+    display:block;
+    height:20px;
+    position:absolute;
+    top:0;
+    left:0;
+    background-color:#ffffff;
+    z-index:10;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.volume3 {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 0 50px 100px;
+    border-color: transparent transparent #007bff transparent;
+    line-height: 0px;
+    _border-color: #000000 #000000 #007bff #000000;
+    _filter: progid:DXImageTransform.Microsoft.Chroma(color='#000000');
+}
+
 /*
 ##################################################
                     ANIMATIONS
@@ -123,4 +210,16 @@ header a:hover > p {font-size: 22px}
 {
     from {opacity: 1}
     to {opacity: 1; width: 100%}
+}
+
+@keyframes speakermove
+{
+    from {align-self: center}
+    to {align-self: flex-start}
+}
+
+@keyframes vidvolbar
+{
+    from {display: none}
+    to {display: inline-block}
 }
