@@ -120,13 +120,12 @@ header > overlay > div:last-child
     position: absolute;
     top: 75%;
     
-    width: 40%;
+    width: 50%;
     height: 10%;
     
+    flex-flow: row nowrap;
     justify-content: center;
     align-items: center;
-    
-    background-color: rgba(0,0,0,.5);
 }
 
 header > overlay > div:last-child > div
@@ -136,16 +135,13 @@ header > overlay > div:last-child > div
 
 header > overlay > div:last-child:hover > div
 {
-    animation-name: vidvolbar;
-    
-    animation-duration: 1s;
-    animation-fill-mode: forwards;
-    animation-iteration-count: 1;
+    display: inline-block;
 }
 
 header > overlay > div:last-child > svg
 {
     display: inline-block;
+    position: absolute;
     
     width: auto;
     height: 100%;
@@ -155,9 +151,8 @@ header > overlay > div:last-child:hover > svg
 {
     animation-name: speakermove;
     
-    animation-duration: 1s;
+    animation-duration: .5s;
     animation-fill-mode: forwards;
-    animation-iteration-count: 1;
 }
 
 /*VOLUME BAR*/
@@ -165,7 +160,7 @@ header > overlay > div:last-child:hover > svg
     position: relative;
     cursor: pointer;
     
-    width: 100%;
+    width: 500px;
     height: 20px;
     
     float: left;
@@ -214,12 +209,6 @@ header > overlay > div:last-child:hover > svg
 
 @keyframes speakermove
 {
-    from {align-self: center}
-    to {align-self: flex-start}
-}
-
-@keyframes vidvolbar
-{
-    from {display: none}
-    to {display: inline-block}
+    from {}
+    to {transform: translateX(-300px)}
 }
