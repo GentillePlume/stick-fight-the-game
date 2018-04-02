@@ -145,6 +145,10 @@ header > overlay > div:last-child > svg
     
     width: auto;
     height: 100%;
+    
+    animation-name: speakerposition;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 header > overlay > div:last-child:hover > svg
@@ -209,6 +213,12 @@ header > overlay > div:last-child:hover > svg
 
 @keyframes speakermove
 {
-    from {}
+    from {transform: translateX(0px)}
     to {transform: translateX(-300px)}
+}
+
+@keyframes speakerposition
+{
+    from {transform: translateX(-300px)}
+    to {transform: translateX(0px)}
 }
