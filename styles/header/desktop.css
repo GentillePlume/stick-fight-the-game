@@ -140,13 +140,13 @@ header > overlay > div:last-child:hover > div
 
 header > overlay > div:last-child > svg
 {
-    display: inline-block;
+    display: none;
     position: absolute;
     
     width: auto;
     height: 100%;
     
-    animation-name: speakerposition;
+    animation-name: zoomIn;
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
@@ -168,9 +168,6 @@ header > overlay > div:last-child:hover > svg
     height: 20px;
     
     float: left;
-    
-    /*margin-top: 10px;
-    margin-right: 10px;*/
     
     background-color: #6a6a6a;
     border-radius: 10px;
